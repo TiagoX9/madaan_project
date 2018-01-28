@@ -5,6 +5,8 @@ import { HomeComponent } from './components/home/home.component';
 import { BsNavbarComponent } from './components/bs-navbar/bs-navbar.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { HomeSliderComponent } from './components/home/home-slider/home-slider.component';
+import { FooterComponent } from './components/home/footer/footer.component';
 
 @NgModule({
   imports: [
@@ -14,7 +16,9 @@ import { CommonModule } from '@angular/common';
   declarations: [
     BsNavbarComponent,
     HomeComponent,
-    LoginComponent,        
+    LoginComponent,
+    HomeSliderComponent,
+    FooterComponent,        
   ],
   exports: [
     BsNavbarComponent
